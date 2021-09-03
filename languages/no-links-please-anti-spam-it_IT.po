@@ -18,6 +18,10 @@ msgstr ""
 msgid "Please try again, adding a nice asd in your comment. Thank you, asd."
 msgstr "Per favore riprova, ma con un glorioso asd nel testo. Grazie."
 
+#: wp-only-asd-please-anti-spam.php:34
+msgid "Solo asd, per favore!"
+msgstr ""
+
 #: wp-only-asd-please-anti-spam.php:51
 msgid "Please remember that comments without an asd inside are not appreciated, asd."
 msgstr "Per favore, ricorda che non sono apprezzati commenti senza asd all'interno."

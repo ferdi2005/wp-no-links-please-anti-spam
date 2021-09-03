@@ -23,7 +23,7 @@ defined( 'ABSPATH' ) or die( 'Hello lamer!' );
  */
 function only_asd_please_anti_spam_handler( $approved, $commentdata ) {
 	if( empty( $commentdata[ 'user_ID' ] ) && empty( $commentdata[ 'type' ] ) ) {
-		$contains_asd = str_contains( $commentdata[ 'comment_content' ], "asd" );
+		$contains_asd = strpos( $commentdata[ 'comment_content' ], "asd" );
 		if( ! empty( $commentdata[ 'comment_author_url' ] ) || $contains_asd === false ) {
 			// increment counters
 			update_option( 'only_asd_please_anti_spam_count', only_asd_please_anti_spam_counter() + 1, false );
@@ -31,6 +31,9 @@ function only_asd_please_anti_spam_handler( $approved, $commentdata ) {
 			// die with an error message
 			$message = __( "Please try again, adding a nice asd in your comment. Thank you, asd.", 'only-asd-please-anti-spam' );
 			$message = apply_filters( 'only_asd_please_anti_spam_error', $message );
+
+			$title = __( "Only asd, please!", 'only-asd-please-title' );
+			$title = apply_filters( 'only_asd_please_title', $title );
 			wp_die( $message, $title, [
 				'response'  => 400,
 				'back_link' => true,
