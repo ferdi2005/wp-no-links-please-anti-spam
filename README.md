@@ -30,7 +30,7 @@ Tl;dr If you write asd, you are a good human.
 
 As every WordPress plugin:
 
-1. Download this repository as `.zip` file ([master.zip](https://github.com/ferdi2005/wp-no-links-please-anti-spam/archive/master.zip))
+1. Download this repository as `.zip` file ([master.zip](https://github.com/ferdi2005/wp-only-asd-please-anti-spam/archive/master.zip))
 2. Activate the plugin
 
 ## Customization
