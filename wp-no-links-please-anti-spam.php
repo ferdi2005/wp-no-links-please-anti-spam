@@ -29,7 +29,7 @@ function only_asd_please_anti_spam_handler( $approved, $commentdata ) {
 			update_option( 'only_asd_please_anti_spam_count', only_asd_please_anti_spam_counter() + 1, false );
 
 			// die with an error message
-			$message = __( "Please try again, adding a sacred asd in your comment. Thank you, asd.", 'only-asd-please-anti-spam' );
+			$message = __( "Please try again, adding a nice asd in your comment. Thank you, asd.", 'only-asd-please-anti-spam' );
 			$message = apply_filters( 'only_asd_please_anti_spam_error', $message );
 			wp_die( $message, $title, [
 				'response'  => 400,

@@ -16,7 +16,7 @@ msgstr ""
 "X-Loco-Version: 2.2.0; wp-4.4.16"
 
 #: wp-only-asd-please-anti-spam.php:30
-msgid "Please try again, adding a sacred asd in your comment. Thank you, asd."
+msgid "Please try again, adding a nice asd in your comment. Thank you, asd."
 msgstr ""
 
 #: wp-only-asd-please-anti-spam.php:51
