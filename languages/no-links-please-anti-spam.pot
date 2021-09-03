@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: No links please! Anti-SPAM\n"
+"Project-Id-Version: Only asd please! Anti-SPAM\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-05 11:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -15,25 +15,25 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.2.0; wp-4.4.16"
 
-#: wp-no-links-please-anti-spam.php:30
-msgid "Please try again but without links in the text. Thank you."
+#: wp-only-asd-please-anti-spam.php:30
+msgid "Please try again, adding a sacred asd in your comment. Thank you, asd."
 msgstr ""
 
-#: wp-no-links-please-anti-spam.php:51
-msgid "Please remember that links are not appreciated inside comments."
+#: wp-only-asd-please-anti-spam.php:51
+msgid "Please remember that comments without an asd inside are not appreciated, asd."
 msgstr ""
 
-#: wp-no-links-please-anti-spam.php:71
-msgid "Anti-spam stats from \"No links, please!\""
+#: wp-only-asd-please-anti-spam.php:71
+msgid "Anti-spam stats from \"Only asd, please!\""
 msgstr ""
 
-#: wp-no-links-please-anti-spam.php:80
+#: wp-only-asd-please-anti-spam.php:80
 #, php-format
 msgid "Spammers blocked since activation: %s and counting!"
 msgstr ""
 
 #. Name of the plugin
-msgid "No links please! Anti-SPAM"
+msgid "Only asd please! Anti-SPAM"
 msgstr ""
 
 #. Description of the plugin
@@ -41,16 +41,16 @@ msgid ""
 "This simple but effective anti-SPAM system protects your WordPress site from "
 "SPAM. It works without imposing annoying CAPTCHAs, quizzes, configurations, "
 "third-party services, artificial intelligence or unicorns. How? It just "
-"drops any anonymous comment with links inside, alerting humans about this "
+"drops any anonymous comment without any asd inside, alerting humans about this "
 "netiquette."
 msgstr ""
 
 #. URI of the plugin
-msgid "https://github.com/valerio-bozzolan/wp-no-links-please-anti-spam"
+msgid "https://github.com/ferdi2005/wp-only-asd-please-anti-spam"
 msgstr ""
 
 #. Author of the plugin
-msgid "Valerio Bozzolan"
+msgid "Valerio Bozzolan, Ferdinando Traversa"
 msgstr ""
 
 #. Author URI of the plugin

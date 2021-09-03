@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: No links please! Anti-SPAM\n"
+"Project-Id-Version: Only asd please! Anti-SPAM\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-05 11:09+0000\n"
 "PO-Revision-Date: 2018-12-05 12:02+0000\n"
@@ -14,25 +14,25 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.2.0; wp-4.4.16"
 
-#: wp-no-links-please-anti-spam.php:30
-msgid "Please try again but without links in the text. Thank you."
-msgstr "Per favore riprova ma senza link nel testo. Grazie."
+#: wp-only-asd-please-anti-spam.php:30
+msgid "Please try again, adding a sacred asd in your comment. Thank you, asd."
+msgstr "Per favore riprova, ma con un glorioso asd nel testo. Grazie."
 
-#: wp-no-links-please-anti-spam.php:51
-msgid "Please remember that links are not appreciated inside comments."
-msgstr "Per favore ricorda che nel commento non sono apprezzati link."
+#: wp-only-asd-please-anti-spam.php:51
+msgid "Please remember that comments without an asd inside are not appreciated, asd."
+msgstr "Per favore, ricorda che non sono apprezzati commenti senza asd all'interno."
 
-#: wp-no-links-please-anti-spam.php:71
-msgid "Anti-spam stats from \"No links, please!\""
-msgstr "Statistiche anti-spam da \"Nessun link, per favore!\""
+#: wp-only-asd-please-anti-spam.php:71
+msgid "Anti-spam stats from \"Only asd, please!\""
+msgstr "Statistiche anti-spam da \"Solo asd, per favore!\""
 
-#: wp-no-links-please-anti-spam.php:80
+#: wp-only-asd-please-anti-spam.php:80
 #, php-format
 msgid "Spammers blocked since activation: %s and counting!"
 msgstr "Spammer bloccati dall'attivazione: %s in aumento!"
 
 #. Name of the plugin
-msgid "No links please! Anti-SPAM"
+msgid "Only asd please! Anti-SPAM"
 msgstr "Nessun link per favore! Anti-SPAM"
 
 #. Description of the plugin
@@ -40,22 +40,22 @@ msgid ""
 "This simple but effective anti-SPAM system protects your WordPress site from "
 "SPAM. It works without imposing annoying CAPTCHAs, quizzes, configurations, "
 "third-party services, artificial intelligence or unicorns. How? It just "
-"drops any anonymous comment with links inside, alerting humans about this "
+"drops any anonymous comment without any asd inside, alerting humans about this "
 "netiquette."
 msgstr ""
 "Questo sistema anti-SPAM semplice ma efficace protegge il tuo sito WordPress "
 "dallo SPAM. Funziona senza imporre alcun noioso CAPTCHA, quiz, "
 "configurazione, servizi di terze parti, intelligenza artificiale o unicorni. "
-"Come? Scartando qualsiasi commento anonimo che contenga dei link all'interno,"
+"Come? Scartando qualsiasi commento anonimo che non contenga un asd all'interno,"
 " avvisando gli umani di questa netiquette."
 
 #. URI of the plugin
-msgid "https://github.com/valerio-bozzolan/wp-no-links-please-anti-spam"
-msgstr "https://github.com/valerio-bozzolan/wp-no-links-please-anti-spam"
+msgid "https://github.com/ferdi2005/wp-only-asd-please-anti-spam"
+msgstr "https://github.com/ferdi2005/wp-only-asd-please-anti-spam"
 
 #. Author of the plugin
-msgid "Valerio Bozzolan"
-msgstr "Valerio Bozzolan"
+msgid "Valerio Bozzolan, Ferdinando Traversa"
+msgstr "Valerio Bozzolan, Ferdinando Traversa"
 
 #. Author URI of the plugin
 msgid "https://boz.reyboz.it/?l=en"
