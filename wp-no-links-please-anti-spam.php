@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Only asd please! Anti-SPAM!
-Version:     1.3.0
+Version:     2.0.0
 Description: This simple but effective anti-SPAM system protects your WordPress site from SPAM. It works without imposing annoying CAPTCHAs, quizzes, configurations, third-party services, artificial intelligence or unicorns. How? It just drops any anonymous comment without any asd inside, alerting humans about this netiquette.
 Author:      Valerio Bozzolan, Ferdinando Traversa
 Author URI:  https://boz.reyboz.it/?l=en
