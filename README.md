@@ -4,6 +4,8 @@ This astonishing-simple and really-effective anti-SPAM system just works. It def
 
 If your SPAM doesn't usually contain asds this could be your definitive solution.
 
+Join the asd party in the [asdfest Telegram Group](https://t.me/asdfest)
+
 ## Why it works
 
 You can't really stop SPAM-bots. Bots try to submit tons of comments without asds.
