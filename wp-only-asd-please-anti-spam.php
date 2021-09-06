@@ -29,10 +29,10 @@ function only_asd_please_anti_spam_handler( $approved, $commentdata ) {
 			update_option( 'only_asd_please_anti_spam_count', only_asd_please_anti_spam_counter() + 1, false );
 
 			// die with an error message
-			$message = __( "Please try again, adding a nice asd in your comment. Thank you, asd.", 'only-asd-please-anti-spam' );
+			$message = __( "Please try again, adding a nice asd in your comment. Thank you, asd.", 'wp-only-asd-please-anti-spam' );
 			$message = apply_filters( 'only_asd_please_anti_spam_error', $message );
 
-			$title = __( "Only asd, please!", 'only-asd-please-title' );
+			$title = __( "Only asd, please!", 'wp-only-asd-please-anti-spam' );
 			$title = apply_filters( 'only_asd_please_title', $title );
 			wp_die( $message, $title, [
 				'response'  => 400,
@@ -53,7 +53,7 @@ function only_asd_please_anti_spam_form_default_fields( $fields ) {
 		unset( $fields[ 'url' ] );
 
 		// show netiquette message
-		$netiquette = __( "Please remember that comments without an asd inside are not appreciated, asd.", 'only-asd-please-anti-spam' );
+		$netiquette = __( "Please remember that comments without an asd inside are not appreciated, asd.", 'wp-only-asd-please-anti-spam' );
 		$netiquette = apply_filters( 'only_asd_please_anti_spam_netiquette', $netiquette );
 		$fields[ 'comment_form_before' ] .= "<p class=\"only-asd-please-anti-spam-netiquette\">$netiquette</p>";
 	}
@@ -73,7 +73,7 @@ add_shortcode( 'only_asd_please_anti_spam_counter', 'only_asd_please_anti_spam_c
  * Register the unuseful Dashboard widget
  */
 function only_asd_please_anti_spam_dashboard_widget() {
-	wp_add_dashboard_widget( 'only_asd_please_anti_spam_dashboard_widget', __( "Anti-spam stats from \"Only asd, please!\"", 'only-asd-please-anti-spam' ), 'only_asd_please_anti_spam_dashboard_widget_content' );
+	wp_add_dashboard_widget( 'only_asd_please_anti_spam_dashboard_widget', __( "Anti-spam stats from \"Only asd, please!\"", 'wp-only-asd-please-anti-spam' ), 'only_asd_please_anti_spam_dashboard_widget_content' );
 }
 
 /**
@@ -82,7 +82,7 @@ function only_asd_please_anti_spam_dashboard_widget() {
 function only_asd_please_anti_spam_dashboard_widget_content() {
 	echo '<p>';
 	printf(
-		__( "Spammers blocked since activation: %s and counting!", 'only-asd-please-anti-spam' ),
+		__( "Spammers blocked since activation: %s and counting!", 'wp-only-asd-please-anti-spam' ),
 		'<b>' . only_asd_please_anti_spam_counter() . '</b>'
 	);
 	echo '</p>';
@@ -114,6 +114,6 @@ register_uninstall_hook( __FILE__, 'only_asd_please_anti_spam_uninstall' );
  * Load plugin textdomain
  */
 function only_asd_please_anti_spam_load_textdomain() {
-	load_plugin_textdomain( 'only-asd-please-anti-spam', false, basename( dirname( __FILE__ ) ) . '/languages' );
+	load_plugin_textdomain( 'wp-only-asd-please-anti-spam', false, basename( dirname( __FILE__ ) ) . '/languages' );
 }
 add_action( 'init', 'only_asd_please_anti_spam_load_textdomain' );
